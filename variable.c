@@ -17,7 +17,7 @@ int main(){
     printf("Hasil Diffrence = %d\n",diffrence);
     printf("Hasil Product = %d\n",product);
     printf("Hasil Quotitent = %d\n",quotitent);
-    printf("Hasil Modulus = %d\n",modulus);
+    printf("Hasil Modulus =%d\n",modulus);
 
     return 0; 
 
