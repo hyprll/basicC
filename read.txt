@@ -1,0 +1,3 @@
+%s untuk char
+%d untuk int
+
