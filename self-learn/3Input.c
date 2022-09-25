@@ -5,18 +5,18 @@ int main(){
     // double input
     double number;
     char alphabet;
+    // & buat nyimpen di varibale dara misal var &data berarti nyimpen di data
 
     printf("Enter input value: ");
     scanf("%d",&age);
     printf("Age = %d\n",age);
 
-    printf("Enter double value :");
-    scanf("%lf",&number);
-    printf("Number = %d \n",number);
-
-    printf("Enter character value :");
-    scanf("\n%c",&alphabet);
-    printf("Alphabet = %c \n",alphabet);
+//
+    printf("Enter input values number and alphabet: ");
+    scanf("%lf %c", &number, &alphabet);
+  
+    printf("Number: %lf", number);
+    printf("\nCharacter: %c", alphabet);
 
 
     return 0;
