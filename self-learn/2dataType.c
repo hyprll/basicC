@@ -45,5 +45,10 @@ int main(){
   	printf("%c", character);
  	printf("  %d", character);
 
+	//akan error jika
+	// int a = 10; float a = 10;
+	// printf("%d",a);
+	
+
 	return 0;
 }
