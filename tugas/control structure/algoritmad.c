@@ -4,3 +4,4 @@
 // AREA = SQRT (S.(S-A).(S-B).(S-C))
 // PERIMETER =  S1+ S2+ S3
 // Stop
+
