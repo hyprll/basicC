@@ -1,13 +1,24 @@
 // start ->input first number say A -> input second number B ->SUM = A+B ->Display SUM -> Stop
 
 
-#include <stdlib.h>
+#include <stdio.h>
 
-int sayA = 4;
-int sayB = 10;
-int sum = 0;
+// int sayA = 4;
+// int sayB = 10;
+// int sum = 0;
 
 int main(){
-    sum = sayA + sayB;
-    printf("Hasil dari otputnya adalah",sum);
+    double a,b;
+    double sum;
+
+    printf("Inputing A number");
+    scanf("\n %lf",&a);
+
+    printf("Inputing B number");
+    scanf("\n %lf",&b);
+
+    sum = a+b;
+    printf("Hasil dari otputnya adalah %.2lf",sum);
+
+    return 0;
 }
