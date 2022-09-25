@@ -1,6 +1,14 @@
 #include <stdio.h>
 
 // pokoknya klo mau konversi tinggal tulis type apa yang mau dikonversikan
+// higer data type long double
+        /*double
+        float
+        long
+        int
+        short
+        char */
+
 int main(){
     int x =10;
     char b = 'a';
