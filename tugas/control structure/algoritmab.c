@@ -5,21 +5,15 @@
 // Stop
 
 #include <stdio.h>
-int l,area,perimeter,display;
-l = 0 ;
-
 
 int main() {
-    int l[20];
-    
+    double l,parameter,area;
+
     printf("Enter L number: ");
-    scanf("%s", l);
-    printf("\nL number	: %s\n", l);
+    scanf("\n %lf",&l);
 
-  
-
-	
-
+    area = l + l ;
+    printf("The result is = \n %.2lf",area);
 
     return 0;
 }

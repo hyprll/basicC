@@ -3,10 +3,6 @@
 
 #include <stdio.h>
 
-// int sayA = 4;
-// int sayB = 10;
-// int sum = 0;
-
 int main(){
     double a,b;
     double sum;
