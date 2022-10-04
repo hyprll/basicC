@@ -14,7 +14,10 @@ int main() {
     scanf("\n %lf",&l);
 
     area = l + l ;
-    printf("The result is = \n %.2lf",area);
+    printf("\nThe result is = %.2lf",area);
+
+    parameter = 4*l;
+    printf("\nThe result is = %.2lf",parameter);
 
     return 0;
 }
