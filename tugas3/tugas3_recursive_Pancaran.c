@@ -21,4 +21,4 @@ int main() {
 
 int rekursif(int x, int n) {
     return x * n;
-}
+}`
