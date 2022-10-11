@@ -1,0 +1,13 @@
+print 
+    %s untuk char
+    %d untuk intx 
+    \n new line
+
+c header type
+    <stdio.h> =	Standard Input/Output functions
+    <stdio.h>	Standard Input/Output functions
+
+standart lib functions
+    #include <math.h>
+    sqrt = square root of number
+
