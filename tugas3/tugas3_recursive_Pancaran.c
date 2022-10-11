@@ -13,7 +13,7 @@ int main() {
     scanf("%lf", &n);
 
     result_rekursif = rekursif(x, n);
-
+    
     printf("Hasil exponen dengan cara rekursif : %d", result_rekursif);    
 
     return 0;
