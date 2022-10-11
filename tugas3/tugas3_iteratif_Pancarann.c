@@ -16,7 +16,7 @@ int main() {
 
     result_iteratif = iteratif(x, n);
 
-    printf("Hasil exponen dengan cara rekursif : %d", result_rekursif);    
+    printf("Hasil exponen dengan cara iteratif : %d", result_iteratif);    
 
     return 0;
-}
+}`
