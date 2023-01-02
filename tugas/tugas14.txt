@@ -1,0 +1,25 @@
+Sistem Tabungan 
+
+Setiap penabung mempunyai akun tabungan yg terdiri dari character 10 digit yang harus unik
+sistem bisa menambahkan akun baru yang disimpan bersama nama penabung
+
+//
+ketika pemilik akun tabungan datang diminta no akun (yang unik), yang akan dicari dari data tabungan untuk menampilkan nama dan saldo uangnya yang disimpan pada buku tabungan masing2 
+(satu buku tabungan satu file txt dgn nama no akun)
+setiap record di buku tabungan disimpan sbb:
+jenis transaksi (debit/kredit)
+nilai transaksi
+
+cara buat file struknya
+FILE * fpointer = fopen("employees.txt", "w"); // also try "a" for append
+
+fprint(fpointer, "employee");
+
+fclose(fpointer);
+
+
+saldo setelah transaksi: 
+saldo = saldo sebelumnya + nilai kredit
+atau
+
+saldo = saldo sebelumnya - nilai debit
