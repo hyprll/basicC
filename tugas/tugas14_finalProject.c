@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #define FILE_NASABAH "nasabah.txt"
+
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 void nasabah_baru();
 void transaksi();
@@ -13,17 +14,18 @@ int main(int argc, char *argv[]) {
 	int mode;
 	do{
 		printf("\n\n Nasabah Baru? \n 1. Ya \n 2. Tidak \n 3. Info Nasabah\n 0. exit aplikasi\n  input anda: ");
-		mode=getche();
-		if(mode=='1'){
+		scanf("%d", &mode);
+		// mode=getche();
+		if(mode==1){
 			nasabah_baru();
-		}else if(mode=='2'){
+		}else if(mode==2){
 			transaksi();
 		}
-		else if(mode=='3'){
+		else if(mode==3){
 			searchByNoRekeningPrintNama();
 		}
 		
-	}while(mode=='1' || mode=='2' || mode=='3');
+	}while(mode==1 || mode==2 || mode==3);
 	return 0;
 }
 
@@ -95,10 +97,11 @@ void transaksi(){
 	scanf("%d",&nilai);	
 	
 	printf("1. Tarik?\n2. Setor?");
-	mode=getche();
-	if(mode=='1'){
+	scanf("%d", &mode);
+	// mode=getche();
+	if(mode==1){
 		setor_kah=0;
-	}else if(mode=='2'){
+	}else if(mode==2){
 		setor_kah=1;
 	}
 	saldo =baca_saldo_akhir(no_rekening);
