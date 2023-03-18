@@ -3,7 +3,7 @@
 int main() {
 
   char operator;
-  printf("Choose an operator ['+', '-', '*', '/']: ");
+  printf("Choose an operator ['1', '2', '3', '4']: ");
   scanf("%c", &operator);
   
   double num1, num2;
@@ -19,16 +19,16 @@ int main() {
   double result;
 
   switch(operator) {
-    case '+':
+    case '1':
       result = num1 + num2;
       break;
-    case '-':
+    case '2':
       result = num1 - num2;
       break;
-    case '/':
+    case '3':
       result = num1 / num2;
       break;
-    case '*':
+    case '4':
       result = num1 * num2;
       break;
 

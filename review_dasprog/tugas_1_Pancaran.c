@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main() {
@@ -7,14 +8,12 @@ int main() {
   scanf("%c", &operator);
   
   double num1, num2;
-  num1 = 4;
-  num2 =5;
   
-  // printf("Enter first number: ");
-  // scanf("%lf", &num1);
+  printf("Enter first number: ");
+  scanf("%lf", &num1);
   
-  // printf("Enter second number: ");
-  // scanf("%lf", &num2);
+  printf("Enter second number: ");
+  scanf("%lf", &num2);
   
   double result;
 
