@@ -3,6 +3,7 @@
     "files.associations": {
         "__locale": "c",
         "*.": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "stdio.h": "c"
     }
 }
