@@ -1,1 +1,0 @@
-cd "/Users/macbookpro/basicC/review_dasprog/" && gcc soal1.c -o soal1 && "/Users/macbookpro/basicC/review_dasprog/"soal1
