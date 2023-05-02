@@ -34,7 +34,7 @@ int main(int argc, char *argv[]) {
 
 void simpan_data_nasabah(char no_rekening[10], char nama[]){
 	FILE * fp;
-	// 
+	
 	fp= fopen(FILE_NASABAH,"a");
 	fprintf(fp,"%s %s \n",no_rekening,nama);
 	fclose(fp);

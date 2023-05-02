@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>  // ini buat penggunaan malloc() dan free
 #include <time.h>
 
 void getSortedArrayOfInteger(int **a,long n){
