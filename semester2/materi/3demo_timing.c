@@ -19,9 +19,7 @@ int main () {
     // Stop measuring time and calculate the elapsed time
     time(&end);
     time_t elapsed = end - begin;
-    
     printf("Result: %.20f\n", sum);
-    
     printf("Time measured: %ld seconds.\n", elapsed);
     
     return 0;
